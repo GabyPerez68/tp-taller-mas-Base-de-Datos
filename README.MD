@@ -3,8 +3,11 @@
 ## Integrantes del Grupo
 
 Blanco Luis
+
 Perez Gabriela
+
 Velardez Natalia
+
 Vera Vera Leonardo
 
 ## Descripción
