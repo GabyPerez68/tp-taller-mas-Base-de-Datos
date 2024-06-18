@@ -17,7 +17,6 @@ if (config.use_env_variable) {
 }
 
 
-console.log('Leyendo archivos en el directorio de modelos...')
 fs
   .readdirSync(__dirname)
   .filter(file => {
@@ -33,19 +32,19 @@ fs
   .forEach(file => {
     console.log(`Cargando archivo de modelo: ${file}`);
     const modelExport = require(path.join(__dirname, file));
-    console.log(`Export de ${file}: `, modelExport);
+    
     const model = modelExport(sequelize, Sequelize.DataTypes);
     db[model.name] = model;
   });
 
 Object.keys(db).forEach(modelName => {
   if (db[modelName].associate) {
-    console.log(`Asociando modelo: ${modelName}`)
+    
     db[modelName].associate(db);
   }
 });
 
 db.sequelize = sequelize;
 db.Sequelize = Sequelize;
-console.log('Exportando db...')
+
 module.exports = db;
