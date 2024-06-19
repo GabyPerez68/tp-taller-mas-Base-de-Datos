@@ -2,8 +2,11 @@
 ## GRUPO: Los practicantes.
 
 ▪ Blanco Luis 
+
 ▪ Perez Gabriela
+
 ▪ Velardez Natalia
+
 ▪ Vera Vera Leonardo
 
 ## DESCRIPCIÓN DEL PROYECTO.
