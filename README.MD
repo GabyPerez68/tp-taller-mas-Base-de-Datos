@@ -182,7 +182,16 @@ Realiza las migraciones o pre cargas de datos en el directorio correspondiente.
 models/carrera.js, define el modelo Carrera. models/materia.js, define el modelo Materia.
 
 
+#Contacto
+Para cualquier duda o consulta, comunicarse con cualquiera de los integrantes del proyecto.
 
+Blanco Luis: luisblanco29285793@gmail.com
+
+Perez Gabriela: gaby.68.aries@hotmail.com
+
+Velardez Natalia:nvidanueva20@gmail.com
+
+Vera Vera Leonardo: leovera317@gmail.com
 
 
 
